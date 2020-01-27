@@ -1,0 +1,315 @@
+/*
+Theme Name: KABBO
+Theme URI: https://d5creation.com/theme/kabbo/
+
+Author: D5 Creation
+Author URI: https://d5creation.com/
+
+Description: KABBO is widely used as a Family Theme. You can create your Family Sites in minutes with KABBO Theme. But, it is a Multi-purpose Theme. What is your Purpose? Business? Personal Blog? Portfolio Site? Image Gallery? Family Site? HTML 5 and CSS3 powered KABBO Theme is the right choice for you. KABBO is Super Elegant, Responsive and Professional Theme which will expand your business and site widely. The Slider will show the featured images and contents of posts automatically.  Right and Footer Sidebar will be usable for showing the Widgets and Plugins items. Full Wide page can be used for showing showcase or other pages. KABBO Theme can show Full Content or Excerpt automatically as per your choice. Blog Site users can use this feature. The WP Generic Gallery is designed Attractively. You can show your Images using the Defult Gallery Feature. KABBO Extend has come with exciting Post Options, Theme Options and Extra Functionalities with more than 100 Theme Options. D5 Creation's Support will be with you, Always! 
+
+Version: 2.1
+
+Tags: two-columns, right-sidebar, custom-header, custom-background, custom-menu, threaded-comments, sticky-post, rtl-language-support, front-page-post-form, full-width-template, blog, portfolio, education, theme-options  
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+KABBO WordPress Theme, Copyright 2012-2018: D5 Creation (www.d5creation.com)
+KABBO is distributed under the terms of the GNU GPL
+
+
+Text Domain: kabbo
+
+*/
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+caption,th,td {
+	text-align:right;
+}
+
+/* =WordPress Core and Addition
+-------------------------------------------------------------- */
+.alignnone,#content .alignnone,#content-full .alignnone,div .alignnone {
+	margin:5px 0 20px 20px;
+}
+
+.alignleft,#content .alignleft,#content-full .alignleft,div .alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+
+.alignright,#content .alignright,#content-full .alignright,div .alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+
+a img.alignnone {
+	margin:5px 0 20px 20px;
+}
+
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+
+a img.aligncenter {
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.wp-caption.alignnone {
+	margin:5px 0 20px 20px;
+}
+
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+
+/* =Structure
+----------------------------------------------- */
+body {
+	background:url(images/back.jpg) repeat fixed right top / 100% auto #1c9afe;
+}
+
+.site-des {
+	margin: 0 10px 0 0;
+}
+
+/* Social Links
+------------------------------------------------------------- */
+
+/* Search Box 
+------------------------------------------------------------- */
+
+#top-container #searchform, #top-container .search-form {
+	float: left;
+}
+
+#searchsubmit, input[type="submit"].search-submit, #bbp_search_submit, .woocommerce-product-search button[type="submit"] {
+	margin: 0 -5px 0 0;
+}
+
+/* Common Elements 
+------------------------------------------------------------- */
+ol,ul {
+	padding:0 20px 10px 0;
+}
+
+address {
+	text-align:left;
+}
+
+/* Menu Elements 
+------------------------------------------------------------- */
+#main-menu-con {
+	float: right;
+}
+
+.m-menu {
+	float:right;
+}
+
+.m-menu li {
+	float:right;
+}
+
+.m-menu a {
+	padding:20px 0 55px 25px;
+}
+
+.m-menu ul li:hover > ul {
+	right:calc(100% + 7px);
+	left: auto;
+}
+
+.m-menu ul {
+	right:-20px;
+	left: auto;
+}
+
+.m-menu ul ul {
+	right:calc(100% + 30px);
+	left: auto;
+}
+
+.m-menu ul a {
+	text-align:right;
+}
+
+/* IE6 */
+
+/* IE7 */
+
+.m-menu ul li:first-child > a:after {
+	right:30px;
+	border-right:5px solid transparent;
+	border-left:5px solid transparent;
+	left: auto;
+}
+
+.m-menu ul ul li:first-child a:after {
+	right:-8px;
+	border-right:0;
+	border-left:8px solid #444;
+	left: auto;
+}
+
+.m-menu ul ul li:first-child a:hover:after {
+	border-left-color:#04acec;
+}
+
+/* Wedget Elements 
+------------------------------------------------------------- */
+
+.widget ul,.widget ol {
+	margin-right: 15px;
+	margin-left: auto;
+}
+
+.widget li {
+	padding: 5px 5px 5px 0;
+}
+
+.footer-widget {
+	float:right;
+	background:url(images/wline.png) no-repeat scroll right center transparent;
+}
+
+.footer-widget1 {
+	padding:0 0 0 20px;
+}
+
+.footer-widget4 {
+	padding:0 20px 0 0;
+}
+
+/* Design Elements 
+------------------------------------------------------------- */
+
+/*Input and Button
+----------------------------*/
+
+.post.sticky,.sticky {
+	background:url(images/sticky.png) no-repeat scroll left top #F2F2F2;
+}
+
+.page-link {
+	float:left;
+	text-align:left;
+}
+
+/*Gallery Post
+----------------------------*/
+
+/*Calendar
+----------------------------*/
+
+/* ------------------------------------------------------------------------------------------ */
+
+blockquote:before,q:before {
+	margin-left:.2em;
+	margin-right: auto;
+}
+
+blockquote:after,q:after {
+	margin-right:.2em;
+	margin-left: auto;
+}
+
+#customers-comment blockquote {
+	border-right:10px solid #3ab6ea;
+	border-left:10px solid #3ab6ea;
+}
+
+#container .attachment-thumbnail,#container .attachment-category-thumb {
+	float:right;
+	margin:5px 0 10px 15px;
+}
+
+h1.page-title,h1.arc-post-title {
+	text-align:right;
+}
+
+h2.post-title,h2.comments,h3#reply-title,h2.post-title-color {
+	text-align:right;
+}
+
+.read-more {
+	background:url(images/go.png) no-repeat scroll left center transparent;
+	padding:5px 0 5px 30px;
+}
+
+.floatright {
+	float:right;
+	text-align:right;
+}
+
+.floatleft {
+	float:left;
+	text-align:left;
+}
+
+#page-nav .alignleft {
+	text-align:left;
+	background:url(images/go.png) no-repeat scroll left center transparent;
+	padding:0 0 0 30px;
+}
+
+#page-nav .alignright {
+	text-align:right;
+	background:url(images/back.png) no-repeat scroll right center transparent;
+	padding:0 30px 0 0;
+}
+
+/* Comments Box 
+---------------------------------- */
+
+.comments::before {
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+#commentsbox img.avatar {
+	right: 0;
+	left: auto;
+}
+
+.comment-body:after {
+	border-left: 15px solid #eeeeee;
+	margin: 0 -23px 0 0;
+	border-right: none;
+}
+
+#commentsbox .commentlist li.comment {
+	padding:20px 85px 0 0;
+}
+
+#commentsbox .commentlist .children li {
+	margin:0 -25px 0 0;
+}
+
+#respond .comment-form-cookies-consent label {
+	padding: 0 10px 0 0;
+}
+
+#respond label {
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text:focus {
+	right: 5px;
+	left: auto;
+}
